@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 15px 16px;
+        }
+
+        body {
+            background-color: aliceblue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px; /* Space between columns */
+        }
+
+        .column {
+            background-color: white;
+            width: 200px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid gray; /* Optional: Add border around columns */
+        }
+
+        .column img {
+            width: 200px;
+            height: 250px;
+            border: 2px solid gray;
+        }
+
+        .column h2 {
+            color: red;
+            margin: 10px 0;
+        }
+
+        .column p {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Flexbox-Card Layout</h2>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="whisky.jfif" alt="whiskey">
+            <h2>Whiskey</h2>
+            <p>
+                A whisky cat is a cat that works at whisky distilleries. You can see the sight of whisky cats working in Scotland. Whisky is one of the most popular drinks in Scotland and is made from barley. But barley is often damaged because it is food that birds and mice like to eat. A whisky cat is a cat that works at whisky distilleries. You can see the sight of whisky cats working in Scotland. Whisky is one of the most popular.
+            </p>
+        </div>
+        
+        <div class="column">
+            <img src="fullfy.jpg" alt="fullfy cat">
+            <h2>Fullfy</h2>
+            <p>Mynor Alexander can teach you a few things about Flexbox and card layouts; you don’t need to see him in person! It’s all right within the source code of this Responsive Card Layout built using Flexbox. Nowadays, the adaption of card layouts is continuously growing; their value for design experience is invaluable.</p>
+        </div>
+        
+        <div class="column">
+            <img src="kitty.jpg" alt="kitty">
+            <h2>Kitty</h2>
+            <p>
+                This is yet another share from Angular Material; this time, they share a simple grid layout that you can use as a boilerplate for future design development. Keep an eye on their CodePen page as they continue to push out new layouts and concepts in preparation for the full release of Angular framework.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
